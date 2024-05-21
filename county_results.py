@@ -66,14 +66,21 @@ for office, party, df in races:
     if df.empty:
         continue
 
+    # Separate the Totals row
+    totals_row = df[df.iloc[:, 0].str.contains('Totals', na=False)]
+    df = df[~df.iloc[:, 0].str.contains('Totals', na=False)]
+
     # Clean and process vote columns
     if 'Total' in df.columns:
-        df['Total'] = df['Total'].apply(clean_votes)
+        df.loc[:, 'Total'] = df['Total'].apply(clean_votes)
     else:
-        df['Total'] = df.iloc[:, -2].apply(clean_votes)  # Assuming the second last column is the 'Total' column if not named
+        df.loc[:, 'Total'] = df.iloc[:, -2].apply(clean_votes)  # Assuming the second last column is the 'Total' column if not named
+
+    # Sort by Total and append Totals row at the bottom
+    df = df.sort_values(by='Total', ascending=False)
+    df = pd.concat([df, totals_row], ignore_index=True)
 
     # Save results based on Party
-    df = df.sort_values(by='Total', ascending=False)
     party_name = party.replace(' ', '_') if party else 'No_Party'
     office_name = office.replace(' ', '_') if office else 'Unknown_Office'
     filename = f"data/{office_name}_{party_name}.csv"
