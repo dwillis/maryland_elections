@@ -26,9 +26,6 @@ jobs:
       - name: Run script
         run: python county_results.py
 
-      - name: Run csv
-        run: python make_csv.py
-
       - name: "Commit and push if it changed"
         run: |-
             git config user.name "Automated"
