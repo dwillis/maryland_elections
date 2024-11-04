@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import os
 
-url = "https://elections.maryland.gov/elections/2024/Primary_Results/gen_results_2024_by_county_11.html"
+url = "https://elections.maryland.gov/elections/2024/General_Results/gen_results_2024_by_county_11.html"
 
 # Send a request to fetch the HTML content of the page
 response = requests.get(url)
