@@ -25,7 +25,10 @@
  
        - name: Run script
          run: python county_results.py
- 
+
+       - name: Run script
+         run: python cong_results.py
+
        - name: "Commit and push if it changed"
          run: |-
              git config user.name "Automated"
