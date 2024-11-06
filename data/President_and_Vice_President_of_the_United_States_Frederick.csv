@@ -1,10 +1,10 @@
 Name,Party,Early Voting,Election Day,Mail-In Ballot,Provisional,Total,Percentage
-Kamala D. Harris and Tim Walz,Democratic,"21,753","7,032","11,760",NR,40545,51.23%
-Donald J. Trump and JD Vance,Republican,"23,897","9,423","3,356",NR,36676,46.34%
-"Robert F. Kennedy, Jr. and Nicole Shanahan",Unaffiliated,325,204,91,NR,620,0.78%
-Jill Ellen Stein and Rudolph Ware,Green,261,139,93,NR,493,0.62%
-Other Write-Ins,,202,142,99,NR,443,0.56%
-Chase Oliver and Mike ter Maat,Libertarian,160,144,64,NR,368,0.46%
+Kamala D. Harris and Tim Walz,Democratic,"21,753","12,346","11,760",NR,45859,50.01%
+Donald J. Trump and JD Vance,Republican,"23,897","16,148","3,356",NR,43401,47.33%
+"Robert F. Kennedy, Jr. and Nicole Shanahan",Unaffiliated,325,374,91,NR,790,0.86%
+Jill Ellen Stein and Rudolph Ware,Green,261,256,93,NR,610,0.67%
+Other Write-Ins,,202,250,99,NR,551,0.60%
+Chase Oliver and Mike ter Maat,Libertarian,160,271,64,NR,495,0.54%
 Sharon E Harris (Write In),Democratic,0,0,0,NR,0,0.00%
 Cherunda Fox (Write In),Unaffiliated,0,0,0,NR,0,0.00%
 Michael Yost (Write In),Unaffiliated,0,0,0,NR,0,0.00%
@@ -33,4 +33,4 @@ Carol Asher (Write In),Other Candidates,0,0,0,NR,0,0.00%
 Sethatina Newman (Write In),Republican,0,0,0,NR,0,0.00%
 Paij Boring and Jaimey Rutschman (Write In),Republican,0,0,0,NR,0,0.00%
 "Theo Brown, Sr. (Write In)",Unaffiliated,0,0,0,NR,0,0.00%
-Totals,,"46,598","17,084","15,463",NR,"79,145",100.00%
+Totals,,"46,598","29,645","15,463",NR,"91,706",100.00%
